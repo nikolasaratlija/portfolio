@@ -1,0 +1,103 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #212529;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.about-me {
+  margin-top: -8vh;
+  background-color: #9fcdff;
+  border-radius: 20px;
+}
+.about-me p:last-of-type {
+  margin-bottom: 0;
+}
+
+.intro {
+  height: 100vh;
+  padding: 20vh 50vh 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 0 4.5vh;
+}
+header p.my-description {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.5vh 0 0;
+}
+.info-box div {
+  flex: 0 0 50%;
+}
+.info-box h2 {
+  font-size: 2.6rem;
+}
+.info-box .col-6 {
+  padding: 0;
+}
+.info-box ul {
+  padding-left: 0;
+}
+.info-box ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.projects .flex-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects .flex-container div {
+  width: 300px;
+  height: 300px;
+  background-color: #9fcdff;
+  margin: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFFFA;
+}
+
+body > div {
+  padding: 5vh 50vh;
+}
+
+/*# sourceMappingURL=main.css.map */

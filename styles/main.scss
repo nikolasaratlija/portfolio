@@ -1,0 +1,14 @@
+@import "typography";
+@import "about-me";
+@import "intro";
+@import "projects";
+
+body {
+  margin: 0;
+  background-color: #FAFFFA;
+}
+
+body > div {
+  padding: 5vh 50vh;
+}
+

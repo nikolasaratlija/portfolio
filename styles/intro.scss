@@ -1,0 +1,42 @@
+.intro {
+  height: 100vh;
+  padding: 20vh 50vh 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 0 4.5vh;
+
+  p.my-description {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem;
+  }
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.5vh 0 0;
+
+  div {
+    flex: 0 0 50%;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .col-6 {
+    padding: 0;
+  }
+
+  ul {
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+      font-size: 1.5rem;
+    }
+  }
+}
